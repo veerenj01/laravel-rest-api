@@ -23,6 +23,7 @@ install:
   #specify the package to test
   - export PACKAGE_NAME=veerenjp/laravel-rest-api
   #run the setup script
+  - curl -s https://raw.githubusercontent.com/veerenjp/laravel-rest-api-v2/main/setup.sh | bash
   - mysql -e 'create database homestead_test;'
 
 services: mysql
