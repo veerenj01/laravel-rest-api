@@ -1,7 +1,7 @@
 <?php
 
 $factory->define(
-    \Froiden\RestAPI\Tests\Models\DummyUser::class,
+    \veerenjp\RestAPI\Tests\Models\DummyUser::class,
     function(Faker\Generator $faker){
         return [
             'name' => $faker->name,
@@ -13,38 +13,38 @@ $factory->define(
 );
 
 $factory->define(
-    \Froiden\RestAPI\Tests\Models\DummyPhone::class,
+    \veerenjp\RestAPI\Tests\Models\DummyPhone::class,
     function(Faker\Generator $faker){
 
         return [
             'name' => $faker->name,
             'modal_no' => $faker->swiftBicNumber,
-            'user_id' => \Froiden\RestAPI\Tests\Models\DummyUser::all()->random()->id,
+            'user_id' => \veerenjp\RestAPI\Tests\Models\DummyUser::all()->random()->id,
         ];
     }
 );
 
-$factory->define(\Froiden\RestAPI\Tests\Models\DummyPost::class,
+$factory->define(\veerenjp\RestAPI\Tests\Models\DummyPost::class,
     function(Faker\Generator $faker)
     {
         $createFactory = \Illuminate\Database\Eloquent\Factory::construct(\Faker\Factory::create(),
             base_path() . '/laravel-rest-api/tests/Factories');
         return [
             'post' => $faker->company,
-            'user_id' => \Froiden\RestAPI\Tests\Models\DummyUser::all()->random()->id,
+            'user_id' => \veerenjp\RestAPI\Tests\Models\DummyUser::all()->random()->id,
         ];
     }
 );
 
-$factory->define(\Froiden\RestAPI\Tests\Models\DummyComment::class,
+$factory->define(\veerenjp\RestAPI\Tests\Models\DummyComment::class,
     function(Faker\Generator $faker)
     {
         $createFactory = \Illuminate\Database\Eloquent\Factory::construct(\Faker\Factory::create(),
             base_path() . '/laravel-rest-api/tests/Factories');
         return [
             'comment' => $faker->text,
-            'user_id' => \Froiden\RestAPI\Tests\Models\DummyUser::all()->random()->id,
-            'post_id' => \Froiden\RestAPI\Tests\Models\DummyPost::all()->random()->id,
+            'user_id' => \veerenjp\RestAPI\Tests\Models\DummyUser::all()->random()->id,
+            'post_id' => \veerenjp\RestAPI\Tests\Models\DummyPost::all()->random()->id,
         ];
     }
 );

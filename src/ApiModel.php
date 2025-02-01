@@ -1,10 +1,10 @@
-<?php namespace Froiden\RestAPI;
+<?php namespace veerenjp\RestAPI;
 
 use Carbon\Carbon;
 use Closure;
 use DateTimeInterface;
-use Froiden\RestAPI\Exceptions\RelatedResourceNotFoundException;
-use Froiden\RestAPI\Exceptions\ResourceNotFoundException;
+use veerenjp\RestAPI\Exceptions\RelatedResourceNotFoundException;
+use veerenjp\RestAPI\Exceptions\ResourceNotFoundException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

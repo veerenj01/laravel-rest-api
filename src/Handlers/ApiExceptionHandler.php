@@ -1,15 +1,15 @@
 <?php
 
-namespace Froiden\RestAPI\Handlers;
+namespace veerenjp\RestAPI\Handlers;
 
 use App\Exceptions\Handler;
-use Froiden\RestAPI\ApiResponse;
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\Parse\UnknownFieldException;
-use Froiden\RestAPI\Exceptions\UnauthenticatedException;
-use Froiden\RestAPI\Exceptions\UnauthenticationException;
-use Froiden\RestAPI\Exceptions\UnauthorizedException;
-use Froiden\RestAPI\Exceptions\ValidationException;
+use veerenjp\RestAPI\ApiResponse;
+use veerenjp\RestAPI\Exceptions\ApiException;
+use veerenjp\RestAPI\Exceptions\Parse\UnknownFieldException;
+use veerenjp\RestAPI\Exceptions\UnauthenticatedException;
+use veerenjp\RestAPI\Exceptions\UnauthenticationException;
+use veerenjp\RestAPI\Exceptions\UnauthorizedException;
+use veerenjp\RestAPI\Exceptions\ValidationException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;

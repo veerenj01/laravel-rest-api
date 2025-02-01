@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\RestAPI\Middleware;
+namespace veerenjp\RestAPI\Middleware;
 
 use Closure;
-use Froiden\RestAPI\ApiResponse;
-use Froiden\RestAPI\Exceptions\UnauthorizedException;
+use veerenjp\RestAPI\ApiResponse;
+use veerenjp\RestAPI\Exceptions\UnauthorizedException;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 

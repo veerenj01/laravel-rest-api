@@ -1,22 +1,22 @@
 <?php
 
-namespace Froiden\RestAPI\Tests;
+namespace veerenjp\RestAPI\Tests;
 
-use Froiden\RestAPI\Facades\ApiRoute;
-use Froiden\RestAPI\Routing\ApiRouter;
-use Froiden\RestAPI\Tests\Controllers\CommentController;
-use Froiden\RestAPI\Tests\Controllers\PostController;
-use Froiden\RestAPI\Tests\Controllers\UserController;
-use Froiden\RestAPI\Tests\Models\DummyComment;
-use Froiden\RestAPI\Tests\Models\DummyPhone;
-use Froiden\RestAPI\Tests\Models\DummyPost;
-use Froiden\RestAPI\Tests\Models\DummyUser;
+use veerenjp\RestAPI\Facades\ApiRoute;
+use veerenjp\RestAPI\Routing\ApiRouter;
+use veerenjp\RestAPI\Tests\Controllers\CommentController;
+use veerenjp\RestAPI\Tests\Controllers\PostController;
+use veerenjp\RestAPI\Tests\Controllers\UserController;
+use veerenjp\RestAPI\Tests\Models\DummyComment;
+use veerenjp\RestAPI\Tests\Models\DummyPhone;
+use veerenjp\RestAPI\Tests\Models\DummyPost;
+use veerenjp\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 
 /**
  * Class TestCase
- * @package Froiden\RestAPI\Tests
+ * @package veerenjp\RestAPI\Tests
  */
 class  TestCase extends \Illuminate\Foundation\Testing\TestCase
 {

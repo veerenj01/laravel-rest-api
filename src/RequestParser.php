@@ -1,12 +1,12 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace veerenjp\RestAPI;
 
-use Froiden\RestAPI\Exceptions\Parse\InvalidLimitException;
-use Froiden\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
-use Froiden\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
-use Froiden\RestAPI\Exceptions\Parse\MaxLimitException;
-use Froiden\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use veerenjp\RestAPI\Exceptions\Parse\InvalidLimitException;
+use veerenjp\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
+use veerenjp\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
+use veerenjp\RestAPI\Exceptions\Parse\MaxLimitException;
+use veerenjp\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

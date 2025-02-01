@@ -1,15 +1,15 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace veerenjp\RestAPI;
 
-use Froiden\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
-use Froiden\RestAPI\Exceptions\ResourceNotFoundException;
-use Froiden\RestAPI\Tests\Models\DummyUser;
+use veerenjp\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use veerenjp\RestAPI\Exceptions\ResourceNotFoundException;
+use veerenjp\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Froiden\RestAPI\ExtendedRelations\BelongsToMany;
+use veerenjp\RestAPI\ExtendedRelations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\Relation;

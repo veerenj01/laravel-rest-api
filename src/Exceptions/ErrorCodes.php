@@ -1,6 +1,6 @@
 <?php
 
-namespace Froiden\RestAPI\Exceptions;
+namespace veerenjp\RestAPI\Exceptions;
 
 class ErrorCodes
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Froiden\RestAPI\ExtendedRelations;
+namespace veerenjp\RestAPI\ExtendedRelations;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as LaravelBelongsToMany;
 
 class BelongsToMany extends LaravelBelongsToMany
